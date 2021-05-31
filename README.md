@@ -1,6 +1,36 @@
-# Getting Started with Create React App
+# Block explorer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), it's a simple demo purpose [Blocklet](https://www.arcblock.io/en/blocklets) that runs on [ABT Node](https://www.arcblock.io/en/platform).
+
+## Run and debug locally
+
+If you have not installed ABT Node locally, you can do it using the following: 
+```shell
+yarn global add @abtnode/cli
+```
+You can get more details from [Get started with ABT Node](https://www.arcblock.io/en/get-started) page or if you need help installing ABT Node. 
+
+Clone the repo and start development using a debug mode ABT Node instance inside this project:
+```shell
+git clone https://github.com/vlasenkosa/block-explorer
+cd block-explorer
+yarn
+abtnode init --mode debug
+abtnode start
+blocklet dev
+``` 
+
+## Learn more about ABT Node and Blocklet
+
+* [ABT Node Overview](https://docs.arcblock.io/en/abtnode/introduction/abtnode-overview)
+* [Get started with ABT Node](https://www.arcblock.io/en/get-started)
+* [ABT Node CLI](https://docs.arcblock.io/en/abtnode/developer/abtnode-cli)
+* [Blocklet Development Documents](https://docs.arcblock.io/en/abtnode/developer/blocklet-spec)
+
+## License
+
+The code is licensed under the MIT license found in the
+[LICENSE](LICENSE) file.
 
 ## Available Scripts
 
@@ -9,6 +39,19 @@ In the project directory, you can run:
 ### `yarn start`
 
 Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+### `yarn start:server`
+
+Runs the app server in the development mode.\
+Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
+
+### `yarn start:client`
+
+Runs the app client part in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
@@ -39,10 +82,14 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+### `yarn bundle`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Runs the building blocklet.\
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### `yarn bundle`
 
-00000000000000000007878ec04bb2b2e12317804810f4c26033585b3f81ffaa
+Runs the building blocklet and deploy it to your local ABT Node.\
+
+### Hashs for testing
+
+` 00000000000000000007878ec04bb2b2e12317804810f4c26033585b3f81ffaa `

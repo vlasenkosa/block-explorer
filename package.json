@@ -44,7 +44,8 @@
     "start": "concurrently --kill-others-on-fail \"yarn start:server\" \"yarn start:client\"",
     "clean": "rm -rf .blocklet build",
     "bundle": "yarn clean && yarn build && blocklet bundle --create-release",
-    "deploy": "yarn bundle && blocklet deploy ."
+    "deploy": "yarn bundle && blocklet deploy .",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [
@@ -70,11 +71,5 @@
     "@types/uuid": "^8.3.0",
     "axios-mock-adapter": "latest",
     "husky": "^6.0.0"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm test",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
   }
 }
