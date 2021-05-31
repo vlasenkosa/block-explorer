@@ -79,11 +79,11 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ### `yarn bundle`
 
-Runs the building blocklet.\
+Runs the building blocklet.
 
 ### `yarn bundle`
 
-Runs the building blocklet and deploy it to your local ABT Node.\
+Runs the building blocklet and deploy it to your local ABT Node.
 
 ### Hashs for testing
 
