@@ -38,6 +38,7 @@
   "scripts": {
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:commit": "yarn test --watchAll=false",
     "eject": "react-scripts eject",
     "start:client": "yarn start",
     "start:server": "nodemon server.js",
