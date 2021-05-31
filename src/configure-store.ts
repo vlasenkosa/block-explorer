@@ -16,8 +16,8 @@ import { getReducers } from './reducers';
 
 import { runSagas } from './sagas';
 import { clientApiFactory } from './utils/client-api-factory';
-import {getClientServices} from "./utils/get-client-services";
-import {services} from "./constants/services";
+import { getClientServices } from "./utils/get-client-services";
+import  {services } from "./constants/services";
 
 export const history = createBrowserHistory();
 

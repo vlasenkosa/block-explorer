@@ -1,0 +1,52 @@
+name: block-explorer
+description: block-explorer blocklet
+group: dapp
+main: server.js
+author:
+  name: Sergey Vlasenko
+scripts:
+  dev: yarn run start
+specVersion: 1.1.1
+version: 1.0.0
+files:
+  - blocklet.md
+  - screenshots
+  - build
+interfaces:
+  - type: web
+    name: publicUrl
+    path: /
+    prefix: '*'
+    port: BLOCKLET_PORT
+    protocol: http
+  - type: web
+    name: adminUrl
+    path: /
+    prefix: '*'
+    port: BLOCKLET_PORT
+    protocol: http
+  - type: web
+    name: configUrl
+    path: /
+    prefix: '*'
+    port: BLOCKLET_PORT
+    protocol: http
+did: z1eVCQHpCWKnpDSeRYzaf6qZ7SNoxDtVRiK
+community: ''
+documentation: ''
+homepage: ''
+license: ''
+charging:
+  price: 0
+  tokens: []
+  shares: []
+timeout:
+  start: 60
+requirements:
+  abtnode: '>=1.2.0'
+  os: '*'
+  cpu: '*'
+environments: []
+capabilities: {}
+screenshots: []
+children: []
