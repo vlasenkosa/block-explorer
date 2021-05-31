@@ -27,11 +27,6 @@ blocklet dev
 * [ABT Node CLI](https://docs.arcblock.io/en/abtnode/developer/abtnode-cli)
 * [Blocklet Development Documents](https://docs.arcblock.io/en/abtnode/developer/blocklet-spec)
 
-## License
-
-The code is licensed under the MIT license found in the
-[LICENSE](LICENSE) file.
-
 ## Available Scripts
 
 In the project directory, you can run:
