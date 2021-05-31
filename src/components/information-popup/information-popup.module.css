@@ -1,0 +1,8 @@
+@import 'arui-feather/vars.css';
+
+.popup :global(.popup__container) {
+    max-width: 10rem;
+    font-weight: 500;
+    background-color: var(--color-background-alfa-on-color);
+    color: var(--color-content-accent-alfa-on-color);
+}

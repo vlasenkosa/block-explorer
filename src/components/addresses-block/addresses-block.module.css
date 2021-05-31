@@ -1,0 +1,16 @@
+.address {
+    margin-bottom: 0.2rem;
+}
+
+.addressValue {
+    text-align: right;
+}
+
+.addressIcon {
+    margin-left: 5px;
+}
+
+.addressLink {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

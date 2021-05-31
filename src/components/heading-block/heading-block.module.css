@@ -1,0 +1,9 @@
+/*@value parametersRow from '../../vars.module.css';*/
+
+.row {
+    margin: 60px 0;
+}
+
+.searchInput :global(.input__input-wrapper){
+    width: 100%;
+}

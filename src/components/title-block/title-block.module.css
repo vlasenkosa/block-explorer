@@ -1,0 +1,13 @@
+.rowTitle {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.currency :global(.radio-group__box){
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.currency :global(.radio + .radio) {
+    margin-left: 12px;
+}

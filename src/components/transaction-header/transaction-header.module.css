@@ -1,0 +1,8 @@
+.transactionHeader {
+    margin-bottom: 0.8rem;
+}
+
+.hashLink {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

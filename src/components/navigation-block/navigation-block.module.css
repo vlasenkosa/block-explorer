@@ -1,0 +1,33 @@
+.navigation {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.navigation {
+    margin-top: 30px;
+}
+
+.navigationItem {
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+}
+
+.navigationItem + .navigationItem, .navigationItemChecked + .navigationItem, .navigationItem + .navigationItemChecked {
+    margin-left: 6px;
+}
+
+.navigationItem:hover {
+    background-color: lightgrey;
+}
+
+.navigationItemChecked {
+    /*border: 1px solid lightgrey;*/
+    border-radius: 6px;
+    color: white;
+    background-color: rgb(12, 108, 242);
+}
+
+.navigationItemChecked:hover {
+    background-color: lightgrey;
+    color: inherit;
+}

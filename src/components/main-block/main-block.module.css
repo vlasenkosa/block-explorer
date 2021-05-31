@@ -1,0 +1,14 @@
+.blockchainMainData {
+    margin: 2rem 0;
+}
+
+.blockchainMainData :global(.grid-row){
+    color: rgb(53, 63, 82);
+    padding: 0.8rem 0;
+    border-bottom: 1px solid grey;
+}
+
+.blockValue {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

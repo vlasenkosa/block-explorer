@@ -1,0 +1,7 @@
+.transactionTotalValue {
+    padding: 0 6px;
+    border-radius: 0.25rem;
+    font-weight: 500;
+    color: rgb(0, 135, 90);
+    background-color: rgb(209, 240, 219);
+}

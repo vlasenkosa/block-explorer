@@ -1,0 +1,9 @@
+.transaction {
+    color: rgb(53, 63, 82);
+    padding: 1.2rem 0.8rem;
+    border-bottom: 1px solid rgb(240, 242, 247);
+}
+
+.transaction:hover {
+    background-color: rgb(240, 242, 247);
+}
